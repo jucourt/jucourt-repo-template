@@ -1,3 +1,14 @@
+# Ignore macOS system files
+.DS_Store                  # macOS Finder metadata file
+.Spotlight-V100            # Spotlight indexing files
+.Trashes                   # macOS Trash folder
+._*                        # Resource fork files
+# Ignore Terraform-related files
+.tfvars # Terraform variables (may contain sensitive data)
+
+#Ignore log files
+.log # Log files from various tools or apps
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
