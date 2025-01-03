@@ -9,6 +9,8 @@
 #Ignore log files
 .log # Log files from various tools or apps
 
+# GH DEFAULT PYTHON EXCLUSIONS TEMPLATE 
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
